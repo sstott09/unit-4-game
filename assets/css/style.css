@@ -1,0 +1,30 @@
+body {
+background-image: url(../images/space\ background\ image.jpg);
+background-size: 100%;
+}
+
+.container {
+text-align: center;
+font-size: 228px;
+}
+
+.card-header {
+font-size: 28px;
+}
+
+.card-body {
+text-align: justify;
+font-size:  16px;
+}
+
+.card {
+mask-size: 3em 25%;
+}
+
+h1 {
+font-size: 228px;
+}
+
+h5 {
+font-size: 28px;
+}
