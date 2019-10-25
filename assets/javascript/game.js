@@ -47,19 +47,19 @@ var getRandom = function(min,max) {
 // Starts & Restarts the Game
 var startGame = function() {
     
-//Reset the Current Score
+// Reset the Current Score
 currentScore = 0;
 
-//Set a new Target Score (between 19 and 120)
+// Set a new Target Score (between 19 and 120)
 targetScore = getRandom(19, 120);
 
-//Set different values for each of the crystals (between 1 and 12)
+// Set different values for each of the crystals (between 1 and 12)
 planet.blue.value = getRandom(1,12);
 planet.green.value = getRandom(1,12);
 planet.red.value = getRandom(1,12);
 planet.purple.value = getRandom(1,12);
 
-//change the HTML to reflect all of these changes
+// Change the HTML to reflect all of these changes
 $("#yourScore").html(currentScore);
 $("#targetScore").html(targetScore);
 
@@ -79,7 +79,7 @@ currentScore = currentScore + planet.value;
 // Change the HTML to reflect changes in currentScore
 $("#yourScore").html(currentScore);
 
-//Call the checkWin Function
+// Call the checkWin Function
 checkWin();
 
 // Testing Console
@@ -94,7 +94,7 @@ var checkWin = function() {
         alert("You Lost, better luck next time")
         console.log("You Lost");
 
-        //Add to Loss Counter
+        // Add to Loss Counter
         lossCount++;
 
         // Change Loss Count HTML
@@ -108,7 +108,7 @@ var checkWin = function() {
         alert("Nicely done, You Won!")
         console.log("You Won!");
 
-        //Add to Win Counter
+        // Add to Win Counter
         winCount++;
 
         // Change Win Count HTML

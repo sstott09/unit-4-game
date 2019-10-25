@@ -1,6 +1,7 @@
 body {
-background-image: url(../images/space\ background\ image.jpg);
-background-size: 78%;
+background-image: url(../images/background.jpg);
+background-size: 100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {
