@@ -10,7 +10,6 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
-    <script type="text/javascript" src="./Assets/javascript/game.js"></script>
 
 </head>
 
@@ -19,10 +18,7 @@
 
         <!-- Crystal Collector Jumbotron -->
         <div class="jumbotron jumbotron-fluid" style="background-color:indianred; color:white;">
-            <div class="container">
-                <h1 class="display-4"><strong>Planet Collector Game</strong></h1>
-
-            </div>
+            <h1 class="display-4"><strong>Planet Collector Game</strong></h1>
         </div>
 
         <!-- Main Content -->
@@ -35,77 +31,74 @@
                     </div>
                     <div class="card-body">
                         <p class="card-text">You will be given a random number at the start of the game. There are four
-                            planets below. By
-                            clicking on a planet you will add a specific amount of points to your total score. You win
-                            the game
-                            by matching your total score to random number, you lose the game if your total score exceeds
-                            the
-                            random number. The value of each planet is hidden from you until you click on it. Each time
-                            the
+                            planets below. By clicking on a planet you will add a specific amount of points to your
+                            total score.
+                            You win the game by matching your total score to random number, you lose the game if your
+                            total score exceeds
+                            the random number. The value of each planet is hidden from you until you click on it. Each
+                            time the
                             game starts, the game iwll change the values of each planet.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Scores & Planets -->
-    <div class="row">
 
-        <!--Target Score-->
-        <div class="col-lg-3">
+        <!-- Scores & Planets -->
+        <div class="row">
 
-            <div class="card">
-                <h5 class="card-header text-center">Target Score</h5>
-                <div class="card-body">
-                    <h5 class="card-title text-center">78</h5>
-                </div>
-            </div>
-
-            <div class="card">
-                <h5 class="card-header text-center">Your Score</h5>
-                <div class="card-body">
-                    <h5 class="card-title text-center">24</h5>
-                </div>
-            </div>
-
-            <div class="row">
-                <!-- Planets -->
-                <div class="col-lg-6">
-
-                    <div class="card">
-                        <h5 class="card-header text-center">Planet Selections</h5>
-                        <div class="card-body text-center">
-                            <img src="assets/images/Blue Medium 200x113.jpg" alt="">
-                            <img src="assets/images/Red Medium 200x113.jpg" alt="">
-                            <img src="assets/images/Green Medium 200x113.jpg" alt="">
-                            <img src="assets/images/Purple Medium 200x113.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Counters Row -->
-
-            <div class="col-lg-6">
-
+            <!--Target Score-->
+            <div class="col-lg-3">
                 <div class="card">
-                    <h5 class="card-header">Win Count</h5>
-                    <div class="card-body">
-                        <h5 class="card-title">0</h5>
-                    </div>
+                    <h5 class="card-header text-center">Target Score</h5>
+                    <h5 class="card-title text-center">99</h5>
                 </div>
+            </div>
 
+            <div class="col-lg-3">
                 <div class="card">
-                    <h5 class="card-header">Loss Count</h5>
-                    <div class="card-body">
-                        <h5 class="card-title">0</h5>
-                    </div>
+                    <h5 class="card-header text-center">Your Score</h5>
+                    <h5 class="card-title text-center">37</h5>
                 </div>
-
             </div>
         </div>
-    </div>
-</body>
 
+        <!-- Planets -->
+        <div class="col-lg-6">
+            <div class="card">
+                <h5 class="card-header text-center">Planet Selections</h5>
+                <img src="assets/images/Blue Medium 200x113.jpg" alt="" id="blue">
+                <img src="assets/images/Red Medium 200x113.jpg" alt="" id="red">
+                <img src="assets/images/Green Medium 200x113.jpg" alt="" id="green">
+                <img src="assets/images/Purple Medium 200x113.jpg" alt="" id="purple">
+            </div>
+        </div>
+
+
+        <!-- Wins & Losses Row -->
+        <div class="row">
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <h5 class="card-header text-center">Wins</h5>
+                    <h5 class="card-title text-center">0</h5>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <h5 class="card-header text-center">Losses</h5>
+                    <h5 class="card-title text-center">0</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- Main Game Logic -->
+    <script src="assets/javascript/game.js"></script>
+</body>
 </html>

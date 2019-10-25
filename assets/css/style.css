@@ -5,26 +5,29 @@ background-size: 100%;
 
 .container {
 text-align: center;
-font-size: 228px;
-}
-
-.card-header {
 font-size: 28px;
-}
-
-.card-body {
-text-align: justify;
-font-size:  16px;
+width: auto;
 }
 
 .card {
-mask-size: 3em 25%;
+width: auto;
 }
-
-h1 {
-font-size: 228px;
+        
+.card-header {
+font-size: 28px;
+width: auto;
 }
-
+        
+.card-body {
+text-align: justify;
+font-size:  20px;
+width: auto;
+}
+            
 h5 {
 font-size: 28px;
+}
+
+.row {
+clear: left;
 }
