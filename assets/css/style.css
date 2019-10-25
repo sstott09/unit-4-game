@@ -4,16 +4,20 @@ background-size: 100%;
 }
 
 .container {
+margin-top: 20px;
 text-align: center;
 font-size: 28px;
 width: auto;
 }
 
 .card {
+padding: 0px;
 width: auto;
 }
         
 .card-header {
+color: goldenrod;
+text-emphasis: outline;
 font-size: 28px;
 width: auto;
 }
@@ -23,11 +27,13 @@ text-align: justify;
 font-size:  20px;
 width: auto;
 }
-            
-h5 {
+         
+h5, h3 {
 font-size: 28px;
+line-height: 42px;
 }
 
 .row {
-clear: left;
+margin-top: 10px;
+padding: 5px;
 }
