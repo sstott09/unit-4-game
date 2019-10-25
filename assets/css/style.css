@@ -1,10 +1,10 @@
 body {
 background-image: url(../images/space\ background\ image.jpg);
-background-size: 100%;
+background-size: 78%;
 }
 
 .container {
-margin-top: 20px;
+margin-top: 10px;
 text-align: center;
 font-size: 28px;
 width: auto;
@@ -17,7 +17,7 @@ width: auto;
         
 .card-header {
 color: goldenrod;
-text-emphasis: outline;
+background-color:rgb(62, 84, 117);
 font-size: 28px;
 width: auto;
 }
@@ -27,7 +27,7 @@ text-align: justify;
 font-size:  20px;
 width: auto;
 }
-         
+     
 h5, h3 {
 font-size: 28px;
 line-height: 42px;

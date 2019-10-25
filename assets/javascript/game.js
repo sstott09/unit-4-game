@@ -48,7 +48,7 @@ var getRandom = function(min,max) {
 var startGame = function() {
     
 //Reset the Current Score
-var currentScore = 0;
+currentScore = 0;
 
 //Set a new Target Score (between 19 and 120)
 targetScore = getRandom(19, 120);
@@ -63,13 +63,11 @@ planet.purple.value = getRandom(1,12);
 $("#yourScore").html(currentScore);
 $("#targetScore").html(targetScore);
 
-
 // Testing Console
 console.log("...................................")
 console.log("Target Score: " + targetScore);
 console.log("Blue: " + planet.blue.value + " | Red: " + planet.red.value + " | Green: " + planet.green.value + " |  Purple: " + planet.purple.value)
 console.log("...................................")
-
 }
 
 // Respond to click on the planets
@@ -101,6 +99,9 @@ var checkWin = function() {
 
         // Change Loss Count HTML
         $("#lossCount").html(lossCount);
+
+        // Restart the Game
+        startGame();
     }
 
     else if (currentScore == targetScore) {
@@ -112,6 +113,9 @@ var checkWin = function() {
 
         // Change Win Count HTML
         $("#winCount").html(winCount);
+
+        // Restart the Game
+        startGame();
     }
 }
 
