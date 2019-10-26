@@ -42,8 +42,8 @@ Demo Site: [This link will take you to the game](https://sstott09.github.io/unit
 
 ## Requirements
  * [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css)
- * [jQuery] (https://code.jquery.com/jquery-3.4.1.min.js)
- * [ResetCSS] (https://meyerweb.com/eric/tools/css/reset/)
+ * [jQuery](https://code.jquery.com/jquery-3.4.1.min.js)
+ * [ResetCSS](https://meyerweb.com/eric/tools/css/reset/)
 
 ## Build Tools
  * Bootstrap
